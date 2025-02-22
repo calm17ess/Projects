@@ -23,7 +23,8 @@ Python, OpenCV, PyAutoGUI가 사용되었습니다.
 3. 인식된 테두리로 창이 새로 나옵니다. 그 창에서 이미지 숫자들을 이어주는 초록색 선이 나오는 것을 확인합니다(나오지 않을 경우, 사과 게임을 확대/축소 해서 이미지를 조정해줍니다)
 4. 전부 사용했으면 'ESC' 키를 눌러 프로그램을 종료합니다.
 
-[![Video Label](http://img.youtube.com/vi/ABjI56CXhbQ/0.jpg)](https://www.youtube.com/watch?v=ABjI56CXhbQ)
+-   실사용 영상
+    [![Video Label](http://img.youtube.com/vi/ABjI56CXhbQ/0.jpg)](https://www.youtube.com/watch?v=ABjI56CXhbQ)
 
 ## Installation
 
