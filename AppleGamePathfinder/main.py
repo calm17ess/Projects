@@ -3,17 +3,28 @@ import numpy as np
 import pyautogui
 import time
 import os
-
-# 상대 경로 설정
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-IMAGE_DIR = os.path.join(BASE_DIR, "Images")
+import sys
 
 threshold = 0.9
 
-# 숫자 템플릿 이미지 로드 (1부터 9까지)
+def get_resource_path(relative_path):
+    """ PyInstaller 실행 파일에서도 리소스 경로를 올바르게 찾는 함수 """
+    if getattr(sys, 'frozen', False):  # EXE로 실행 중인지 확인
+        base_path = sys._MEIPASS  # PyInstaller의 임시 디렉터리
+    else:
+        base_path = os.path.dirname(os.path.abspath(__file__))  # 프로젝트 루트 (src의 상위 폴더)
+
+    return os.path.join(base_path, relative_path)
+
+IMAGE_DIR = get_resource_path("Images/numbers")
+
+# 이미지 로드
 digit_images = {}
 for i in range(1, 10):
-    digit_images[i] = cv2.imread(os.path.join(f"{IMAGE_DIR}/numbers/{i}.png"), 0)
+    img_path = os.path.join(IMAGE_DIR, f"{i}.png")
+    digit_images[i] = cv2.imread(img_path, 0)
+    if digit_images[i] is None:
+        print(f"⚠️ 이미지 로드 실패: {img_path}")
 
 # 마우스 이벤트를 위한 전역 변수
 roi = None  # 선택된 영역 (x, y, w, h)
@@ -88,7 +99,7 @@ while True:
             row, col = int(pt[1] / (h / 10)), int(pt[0] / (w / 17))
             if 0 <= row < 10 and 0 <= col < 17:
                 apple_array[row, col] = digit
-    print(apple_array)
+
     def find_roi_row_col(arr):
         result = []
         rows, cols = arr.shape
