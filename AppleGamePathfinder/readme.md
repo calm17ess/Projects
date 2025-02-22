@@ -5,7 +5,8 @@
 ## Description
 
 이 프로젝트는 자동으로 사과 게임의 퍼즐 해답을 제공합니다. 이 프로그램은 숫자를 인식하고 탐지해 실시간으로 합이 10인 숫자들을 선으로 이어줍니다.
-이것은 Python, OpenCV, PyAutoGUI가 사용되었습니다.
+
+Python, OpenCV, PyAutoGUI가 사용되었습니다.
 
 ## Features
 
