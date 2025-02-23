@@ -1,3 +1,6 @@
+# Copyright (c) 2025 calm17ess
+# Licensed under the MIT License. See LICENSE file for details.
+
 import cv2
 import numpy as np
 import pyautogui
