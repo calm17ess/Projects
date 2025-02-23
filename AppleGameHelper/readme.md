@@ -1,7 +1,6 @@
 # AppleGameHelper
-이 프로그램은 자동으로 사과 게임의 합이 10이 되는 숫자들을 시각화해서 선으로 보여주는 프로그램입니다.
+이 프로그램은 자동으로 [사과 게임](https://www.gamesaien.com/game/fruit_box_a/)의 합이 10이 되는 숫자들을 시각화해서 선으로 보여주는 프로그램입니다.
 
-## [사과 게임 링크](https://www.gamesaien.com/game/fruit_box_a/)
 ## Description
 
 이 프로젝트는 자동으로 사과 게임의 퍼즐 해답을 제공합니다. 이 프로그램은 숫자를 인식하고 탐지해 실시간으로 합이 10인 숫자들을 선으로 이어줍니다.
