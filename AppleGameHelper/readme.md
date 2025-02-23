@@ -1,4 +1,4 @@
-# AppleGamePathfinder
+# AppleGameHelper
 
 이 프로그램은 자동으로 사과 게임의 합이 10이 되는 숫자들을 시각화해서 선으로 보여주는 프로그램입니다.
 
@@ -19,13 +19,13 @@ Python, OpenCV, PyAutoGUI가 사용되었습니다.
 1. 프로그램을 실행합니다.
 2. 나오는 영역에서 예시와 같이 사과 게임의 테두리를 설정해줍니다.
    예시)
-   ![image](../AppleGamePathfinder/Images/full_image.png)
+   ![image](../AppleGameHelper/Images/full_image.png)
 3. 인식된 테두리로 창이 새로 나옵니다. 그 창에서 이미지 숫자들을 이어주는 초록색 선이 나오는 것을 확인합니다(나오지 않을 경우, 사과 게임을 확대/축소 해서 이미지를 조정해줍니다)
 4. 전부 사용했으면 'ESC' 키를 눌러 프로그램을 종료합니다.
 
 ## Installation
 
-1. [AppleGamePathfinder](https://github.com/calm17ess/Projects/releases/tag/v1.0.0) 링크에서 [AppleGamePathfinder.exe](https://github.com/calm17ess/Projects/releases/download/v1.0.0/AppleGamePathfinder.exe)를 다운로드 받습니다.
+1. [AppleGameHelper](https://github.com/calm17ess/Projects/releases/tag/v1.0.0) 링크에서 [AppleGameHelper.exe](https://github.com/calm17ess/Projects/releases/download/v1.0.0/AppleGameHelper.exe)를 다운로드 받습니다.
 
 ## 실사용 영상
 
