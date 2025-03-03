@@ -1,4 +1,5 @@
 # AppleGameHelper
+
 이 프로그램은 자동으로 [사과 게임](https://www.gamesaien.com/game/fruit_box_a/)의 합이 10이 되는 숫자들을 시각화해서 선으로 보여주는 프로그램입니다.
 
 ## Description
@@ -24,7 +25,7 @@ Python, OpenCV, PyAutoGUI가 사용되었습니다.
 
 ## Installation
 
-1. [AppleGameHelper](https://github.com/calm17ess/Projects/releases/tag/v1.0.0) 링크에서 [AppleGameHelper.exe](https://github.com/calm17ess/Projects/releases/download/v1.0.0/AppleGameHelper.exe)를 다운로드 받습니다.
+1. [AppleGameHelper](https://github.com/calm17ess/Projects/releases/tag/AppleGameHelper) 링크에서 AppleGameHelper를 다운로드 받습니다.
 
 ## 실사용 영상
 
